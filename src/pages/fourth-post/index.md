@@ -2,7 +2,7 @@
 title: "Blah blah"
 description: This post is related to the gatsbyjs
 date: '2019-02-04'
-image: coding.jpg
+image: "coding.jpg"
 ---
 
 ```js
