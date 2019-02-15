@@ -1,0 +1,31 @@
+.skills {
+    background: #333;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 7px 6px rgba(0,0,0,0.3);
+}
+
+.skills .skill {
+    font-size: 40px;
+    text-align: center;
+    flex: 1;
+    padding: 12px;
+}
+
+.skills .skill i {
+    display: block;
+}
+
+.skills .skill svg {
+    height: 40px;
+}
+
+.skills .skill.react {color: #61dbfb;}
+.skills .skill.html {color: #e34f26;}
+.skills .skill.css {color: #2965F1;}
+.skills .skill.db {color: #be5eff;}
+.skills .skill.js {color: #f7df1e;}
+.skills .skill.aws {color: #F0931C;}
+.skills .skill.golang {color: #5ED8E2;}
+.skills .skill.nodejs {color: #8BC500;}
+.skills .skill.docker {color: #099CEC;}

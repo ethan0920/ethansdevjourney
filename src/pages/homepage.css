@@ -1,0 +1,42 @@
+ .link{
+    text-decoration: none;
+    color: black;
+}
+
+.post-list {
+    padding: 14px;
+    border: 2px solid black;
+    margin-left: 20px;
+    transition: box-shadow 150ms ease-in-out;
+}
+
+img{
+  height: 90% !important;
+}
+
+.post-list:hover{
+    box-shadow: 6px 8px 0px rgba(0,0,0,1);
+}
+
+.posts {
+    display: flex;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #4b46ea;
+    color: white;
+    margin: 0 auto;
+    padding: 12px 20px;
+    text-align: center;
+    display: block;
+    width: 280px;
+    cursor: pointer;
+    transition: box-shadow 150ms ease-in-out;
+    border: 2px solid black;
+}
+
+.button:hover {
+    box-shadow: 6px 8px 0px rgba(0,0,0,1);
+}

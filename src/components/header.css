@@ -1,0 +1,49 @@
+.me {
+    border-radius: 26px;
+    width: 150px;
+    border: 2px solid black;
+    box-shadow: 3px 5px 0 rgb(0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .text-content {
+    flex: 1;
+    margin-left: 16px;
+}
+
+.header .text-content h1 {
+    margin: 0;
+    color: #4b46ea;
+    font-size: 3em;
+    text-decoration: underline;
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style: wavy;
+}
+
+.header .text-content p {
+    font-size: 16px;
+    width: 400px;
+}
+
+.header .text-content span {
+    color: red;
+    font-weight: bold;
+}
+
+.header .quote {
+    flex: 1;
+}
+
+.header .quote p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+footer {
+    color: black;
+    margin-top: 12px;
+}
